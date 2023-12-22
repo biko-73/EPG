@@ -1,0 +1,10 @@
+#DESCRIPTION=This script will delete all epg-ajpanel-guide from /media/hdd/ajpanel/epg, /media/usb/ajpanel/epg
+rm -rf /media/hdd/ajpanel/epg/guideallarabenglish.xml /media/usb/ajpanel/epg/guideallarabenglish.xml
+rm -rf /media/hdd/ajpanel/epg/guideallarabarabic.xml /media/usb/ajpanel/epg/guideallarabarabic.xml 
+rm -rf /media/hdd/ajpanel/epg/guideallarabarabicandenglish.xml /media/usb/ajpanel/epg/guideallarabarabicandenglish.xml
+rm -rf /media/hdd/ajpanel/epg/guideallarabbeinenglish.xml /media/usb/ajpanel/epg/guideallarabbeinenglish.xml 
+rm -rf /media/hdd/ajpanel/epg/guideallarabbeinarabic.xml /media/usb/ajpanel/epg/guideallarabbeinarabic.xml
+rm -rf /media/hdd/ajpanel/epg/arab-countries.xml /media/usb/ajpanel/epg/arab-countries.xml 
+wget -O /media/hdd/ajpanel/epg/guideallarabenglish.xml.gz http://dreambox4u.com/mosadpro/epg/******/guideallarabenglish.xml.gz && gzip -d /media/hdd/ajpanel/epg/guideallarabenglish.xml.gz ; wget -O /media/hdd/ajpanel/epg/guideallarabarabic.xml.gz http://dreambox4u.com/mosadpro/epg/******/guideallarabarabic.xml.gz && gzip -d /media/hdd/ajpanel/epg/guideallarabarabic.xml.gz ; wget -O /media/hdd/ajpanel/epg/guideallarabarabicandenglish.xml.gz http://dreambox4u.com/mosadpro/epg/******/guideallarabarabicandenglish.xml.gz && gzip -d /media/hdd/ajpanel/epg/guideallarabarabicandenglish.xml.gz ; wget -O /media/hdd/ajpanel/epg/guideallarabbeinenglish.xml.gz http://dreambox4u.com/mosadpro/epg/******/guideallarabbeinenglish.xml.gz && gzip -d /media/hdd/ajpanel/epg/guideallarabbeinenglish.xml.gz ; wget -O /media/hdd/ajpanel/epg/guideallarabbeinarabic.xml.gz http://dreambox4u.com/mosadpro/epg/******/guideallarabbeinarabic.xml.gz && gzip -d /media/hdd/ajpanel/epg/guideallarabbeinarabic.xml.gz; wget -O /media/hdd/ajpanel/epg/arab-countries.xml.gz https://all.iptv.uno/epg_temp_dl/output-epgs/arab-countries.xml.gz && gzip -d /media/hdd/ajpanel/epg/arab-countries.xml.gz
+echo ""
+exit 0
